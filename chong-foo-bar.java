@@ -1,2 +1,2 @@
-void main() {
+public static void main(String argv[]) {
 }
