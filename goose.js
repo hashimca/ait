@@ -1,4 +1,3 @@
-function(test){
-var Total = 0;
-
+function updateTotal(total){
+var masterTotal = total;
 }
