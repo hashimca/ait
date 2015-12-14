@@ -7,3 +7,9 @@
 - [GitHub Flow](https://guides.github.com/introduction/flow/)
 - [GitHub Help articles](https://help.github.com)
 - [GitHub Training YouTube videos](https://www.youtube.com/user/GitHubGuides/videos?view=0&sort=dd&live_view=500&flow=list)
+- Git-aware prompt:
+
+```bash
+git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+```
+
